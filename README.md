@@ -1,70 +1,37 @@
-# Getting Started with Create React App
+## Resumo
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+ Este projeto é um trabalho freelancer para a construção de um site completo
+ para uma imobiliária, onde as pessoas poderiam buscar por casas e apartamentos à venda,
+ marcar visitas, compartilhar com outras pessoas, entre outras funcionalidades.
+ 
+ ## Desenvolvimento
+ 
+  O projeto ainda está em desenvolvimento e segue um cronograma específico para cada
+  parte da construção. Para a criação deste cronograma utilizei a metodoligia Kanban,
+  juntamente com a ferramenta Trello para montar um ambiente de organização do desenvolvimento.
+  
+  ![quadroKanban](https://user-images.githubusercontent.com/81549048/149561821-76ddced0-b570-4220-acdd-d5124cd37414.png)
 
-## Available Scripts
+  Aliado ao Kanban, utilizei as metodologias de desenvolvimento "TDD", "BDD" e "DDD", ou seja,
+  desenvolvimento orientado a testes, comportamento e design.
+  
+  Para a criação dos testes utilizei a biblioteca React Testing Library, escolhi essa biblioteca
+  pois é compatível com o React, framework utilizado na aplicaçõ.
+  
+  Construí o protótipo do site utilizando a ferramenta Figma, com este protótipo pude passar
+  uma noção para o cliente de como o site deveria ficar além de desenvolver conforme a metodologia DDD
+  (Desenvolvimento orientado a design).
+  
+  ![prototipoFigma](https://user-images.githubusercontent.com/81549048/149565641-2e2db5b4-1c41-4317-a4ab-a7dcd543f3fe.png)
 
-In the project directory, you can run:
+## Tecnologias e ferramentas
 
-### `npm start`
+<div>
+  <img align="center" alt="Edson-CSS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
+  <img align="center" alt="Edson-React" height="30" width="40"src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg">
+  <img align="center" alt="Edson-RTL" height="30" width="40" src="https://testing-library.com/img/octopus-128x128.png" />
+  <img align="center" alt="Edson-Figma" height="30" width="40"src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg">
+  <img align="center" alt="Edson-Canva" height="30" width="40"src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/canva/canva-original.svg">
+  <img align="center" alt="Edson-Canva" height="30" width="40"src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/trello/trello-plain.svg">
+</div>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
