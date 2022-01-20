@@ -1,0 +1,16 @@
+.cards {
+    display: flex;
+    justify-content: space-around;
+}
+
+.card {
+    border-radius: 10px;
+    background-color: red;
+    margin: 20px;
+}
+
+.cardThumb {
+    width: 350px;
+    height: 200px;
+    border-radius: 10px 10px 0 0;
+}
