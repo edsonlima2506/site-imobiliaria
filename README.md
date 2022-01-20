@@ -18,7 +18,7 @@
   Para a criação dos testes utilizei a biblioteca React Testing Library, escolhi essa biblioteca
   pois é compatível com o React, framework utilizado na aplicação.
 
-  
+
   
   Construí o protótipo do site utilizando a ferramenta Figma, com este protótipo pude passar
   uma noção para o cliente de como o site deveria ficar além de desenvolver conforme a metodologia DDD
