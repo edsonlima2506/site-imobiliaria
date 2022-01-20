@@ -18,12 +18,10 @@ describe('Testa componente Header', () => {
 
     test('O header deve possuir uma barra de navegação', () => {
         expect(screen.getByRole('navigation')).toBeInTheDocument();
-        expect(screen.getByRole('listitem', { name: /inicio/i })).toBeInTheDocument();
-        expect(screen.getByRole('listitem', { name: /casas/i })).toBeInTheDocument();
-        expect(screen.getByRole('listitem', { name: /apartamentos/i })).toBeInTheDocument();
+        expect(screen.getAllByRole('listitem')).toHaveLength(3);
     });
 
-    test('O header deve possuir a logo da empresa', () => {
+    test('O header deve possuir uma área de filtro', () => {
         expect(screen.getByTestId('filter-section')).toBeInTheDocument();
     });
 

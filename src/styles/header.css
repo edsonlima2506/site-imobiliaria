@@ -1,5 +1,83 @@
 header {
     width: 100%;
-    height: 80vh;
-    background-color: red;
+    height: 100vh;
+    background-image: url('../images/casaHeader.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.superiorMenu {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo {
+    width: 90px;
+    border-radius: 50%;
+}
+
+.superiorList {
+    display: flex;
+    list-style: none;
+    color: #FFF;
+}
+
+.superiorList li {
+    margin: 0 10px 0 10px;
+    font-size: 20px;
+    cursor: pointer;
+    border-bottom: solid rgba(255, 255, 255, 0) 3px;
+}
+
+.socialMediaLinks {
+    display: flex;
+}
+
+.socialMediaIcon {
+    width: 20px;
+    margin: 0 10px 0 10px;
+}
+
+.containerHeader {
+    margin-top: 90px;
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+    color: white;
+    width: 420px;
+    word-break: break-all;
+    font-size: 60px;
+    font-weight: bold;
+    margin: 10px 0 0 10%;
+}
+
+.horizontalRow {
+    width: 280px;
+    height: 7px;
+    background-color: #B05D3D;
+    border: none;
+    margin-left: 10%;
+}
+
+.exploreButton {
+    width: 150px;
+    height: 50px;
+    background-color: #B05D3D;
+    color: #FFF;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    margin: 20px 0 0 10%;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.exploreButton:hover {
+    border: solid 2px #B05D3D;
+    background: none;
+    color: #B05D3D;
 }
