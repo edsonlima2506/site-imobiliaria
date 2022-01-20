@@ -52,6 +52,6 @@ describe('Testa componente Filter', () => {
         const titleMaxPrice = screen.getByText(/quartos/i);
         expect(titleMaxPrice).toBeInTheDocument();
         const iconWallet = screen.getByAltText(/icone de cama/i);
-        expect(iconWaller).toBeInTheDocument();
+        expect(iconWallet).toBeInTheDocument();
     });
 });

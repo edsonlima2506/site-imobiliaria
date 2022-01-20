@@ -57,7 +57,7 @@ header {
 
 .horizontalRow {
     width: 280px;
-    height: 7px;
+    height: 3px;
     background-color: #B05D3D;
     border: none;
     margin-left: 10%;
@@ -77,7 +77,5 @@ header {
 }
 
 .exploreButton:hover {
-    border: solid 2px #B05D3D;
-    background: none;
-    color: #B05D3D;
+    background-color: #c95527;
 }
