@@ -3,6 +3,7 @@ import house from '../icons/house.png';
 import bad from '../icons/bed.png';
 import car from '../icons/car.png';
 import wallet from '../icons/wallet.png';
+import search from '../icons/search.png';
 import '../styles/filter.css';
 
 export default class Filter extends React.Component {
@@ -54,6 +55,9 @@ export default class Filter extends React.Component {
                             <option value="500.000">Até 500.000</option>
                         </select>
                     </div>
+                    <button className="buttonSearch">
+                        <img src={ search } alt="" />
+                    </button>
                 </div>
             );
         }
