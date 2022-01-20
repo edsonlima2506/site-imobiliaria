@@ -16,7 +16,10 @@
   desenvolvimento orientado a testes, comportamento e design.
   
   Para a criação dos testes utilizei a biblioteca React Testing Library, escolhi essa biblioteca
-  pois é compatível com o React, framework utilizado na aplicaçõ.
+  pois é compatível com o React, framework utilizado na aplicação.
+  
+  ![testes](https://user-images.githubusercontent.com/81549048/150277628-1e75ecb5-86fc-427c-b0f6-1c45a745cd63.png)
+
   
   Construí o protótipo do site utilizando a ferramenta Figma, com este protótipo pude passar
   uma noção para o cliente de como o site deveria ficar além de desenvolver conforme a metodologia DDD
