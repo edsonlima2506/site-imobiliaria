@@ -1,0 +1,44 @@
+.callToAct {
+    width: 100%;
+    height: 450px;
+    margin-top: 50px;
+    background-color: lightgray;
+    display: flex;
+    align-items: center;
+}
+
+.keys {
+    height: 100%;
+    width: 30%;
+}
+
+section {
+    margin-left: 10%;
+}
+
+section h1 {
+    color: #B05D3D;
+    font-size: 60px;
+    margin: 0;
+}
+
+section h2 {
+    color: #1E1E1E;
+}
+
+section button {
+    border: none;
+    border-radius: 5px;
+    background-color: #B05D3D;
+    color: #FFF;
+    font-weight: 500;
+    width: 170px;
+    height: 40px;
+    cursor: pointer;
+}
+
+section button:hover {
+    background: none;
+    border: 2px solid #B05D3D;
+    color: #B05D3D;
+}
