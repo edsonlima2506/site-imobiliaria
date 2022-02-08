@@ -1,4 +1,5 @@
 import React from 'react';
+import house from '../icons/house.png';
 import '../styles/card.css';
 
 export default class Card extends React.Component {
@@ -8,7 +9,10 @@ export default class Card extends React.Component {
             <div className="card" data-testid={ cardTestId }>
                 <img src={ thumb } alt="" className="cardThumb" />
                 <h1 className="cardName">{ name }</h1>
-                <h3 className="cardType">{ type }</h3>
+                <span>
+                    <img src={ house } alt="" className="icon" />
+                    <h3 className="cardType">{ type }</h3>
+                </span>
                 <h3 className="cardBedrooms">{ bedrooms }</h3>
                 <h3 className="cardVacancies">{ vacancies }</h3>
                 <h3 className="cardPrice">{ `R$${ price }` }</h3>

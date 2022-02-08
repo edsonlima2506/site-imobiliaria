@@ -1,0 +1,26 @@
+.inicialHouses {
+    color: #1e1e1e;
+    margin-bottom: 20px;
+}
+
+.headerInicial {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.inicialTitle {
+    font-size: 50px;
+    margin-left: 50px;
+}
+
+.linkSeeMore {
+    margin-right: 50px;
+    text-decoration: none;
+    color: #B05D3D;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-around;
+}

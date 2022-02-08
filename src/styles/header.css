@@ -29,6 +29,11 @@ header {
     font-size: 20px;
     cursor: pointer;
     border-bottom: solid rgba(255, 255, 255, 0) 3px;
+    transition: 0.5s;
+}
+
+.superiorList li:hover {
+    border-bottom: solid #B05D3D 3px;
 }
 
 .socialMediaLinks {

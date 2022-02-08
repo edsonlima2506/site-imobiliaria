@@ -1,16 +1,17 @@
-.cards {
-    display: flex;
-    justify-content: space-around;
-}
-
 .card {
     border-radius: 10px;
-    background-color: red;
-    margin: 20px;
+    background-color: #FFF;
+    -webkit-box-shadow: 9px 7px 5px rgba(50, 50, 50, 0.50);
+	-moz-box-shadow: 9px 7px 5px rgba(50, 50, 50, 0.50);
+	box-shadow: 9px 7px 5px rgba(50, 50, 50, 0.50);
 }
 
 .cardThumb {
     width: 350px;
     height: 200px;
     border-radius: 10px 10px 0 0;
+}
+
+span {
+    align-items: center;
 }
