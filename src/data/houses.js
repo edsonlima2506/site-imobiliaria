@@ -10,7 +10,7 @@ const highlightsHouses = [
     },
     {
         thumb: 'https://images.pexels.com/photos/2079234/pexels-photo-2079234.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500',
-        name: 'Casa no BPS',
+        name: 'Casa no Pinheirinho',
         type: 'sobrado',
         bedrooms: 2,
         vacancies: 2,

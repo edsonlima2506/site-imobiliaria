@@ -17,7 +17,7 @@ section {
 }
 
 section h1 {
-    color: #B05D3D;
+    color: #FF7A00;
     font-size: 60px;
     margin: 0;
 }
@@ -29,7 +29,7 @@ section h2 {
 section button {
     border: none;
     border-radius: 5px;
-    background-color: #B05D3D;
+    background-color: #FF7A00;
     color: #FFF;
     font-weight: 500;
     width: 170px;
@@ -39,8 +39,8 @@ section button {
 
 section button:hover {
     background: none;
-    border: 2px solid #B05D3D;
-    color: #B05D3D;
+    border: 2px solid #FF7A00;
+    color: #FF7A00;
 }
 
 .callToAct2 {
@@ -63,7 +63,7 @@ section button:hover {
 }
 
 section h3 {
-    color: #B05D3D;
+    color: #FF7A00;
     text-align: center;
     font-weight: bold;
     font-size: 25px;

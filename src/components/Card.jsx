@@ -6,17 +6,14 @@ export default class Card extends React.Component {
     render() {
         const { thumb, name, type, bedrooms, vacancies, price, cardTestId } = this.props
         return (
-            <div className="card" data-testid={ cardTestId }>
-                <img src={ thumb } alt="" className="cardThumb" />
-                <h1 className="cardName">{ name }</h1>
-                <span>
-                    <img src={ house } alt="" className="icon" />
-                    <h3 className="cardType">{ type }</h3>
-                </span>
-                <h3 className="cardBedrooms">{ bedrooms }</h3>
-                <h3 className="cardVacancies">{ vacancies }</h3>
-                <h3 className="cardPrice">{ `R$${ price }` }</h3>
-            </div>
+           <div class="card">
+           <img src={ thumb } class="card-img-top" alt="..." />
+           <div class="card-body">
+             <h5 class="card-title">{ name }</h5>
+             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+             <a href="#" class="btn btn-primary">Go somewhere</a>
+           </div>
+         </div>
         );
     }
 }

@@ -26,7 +26,7 @@ export default class Filter extends React.Component {
                             <option value="apartamento">Apartamento</option>
                         </select>
                     </div>
-                    <hr />
+                    <div className='vr' />
                     <div className="divBedrooms divisionFilter">
                         <span>
                             <img src={ bad } alt="icone de cama" className="icon" />
@@ -44,7 +44,7 @@ export default class Filter extends React.Component {
                             <option value="4">4+</option>
                         </select>
                     </div>
-                    <hr />
+                    <div className='vr' />
                     <div className="divGarages divisionFilter">
                         <span>
                             <img src={ car } alt="icone de carro" className="icon" />
@@ -61,7 +61,7 @@ export default class Filter extends React.Component {
                             <option value="3">3+</option>
                         </select>
                     </div>
-                    <hr />
+                    <div className='vr' />
                     <div className="divPrice divisionFilter">
                         <span>
                             <img src={ wallet } alt="icone de carteira" className="icon" />

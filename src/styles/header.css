@@ -33,7 +33,7 @@ header {
 }
 
 .superiorList li:hover {
-    border-bottom: solid #B05D3D 3px;
+    border-bottom: solid #FF7A00 3px;
 }
 
 .socialMediaLinks {
@@ -63,7 +63,7 @@ header {
 .horizontalRow {
     width: 280px;
     height: 3px;
-    background-color: #B05D3D;
+    background-color: #FF7A00;
     border: none;
     margin-left: 10%;
 }
@@ -71,7 +71,7 @@ header {
 .exploreButton {
     width: 150px;
     height: 50px;
-    background-color: #B05D3D;
+    background-color: #FF7A00;
     color: #FFF;
     font-weight: bold;
     border: none;

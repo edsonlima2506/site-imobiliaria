@@ -28,12 +28,12 @@ span {
     margin: 0;
 }
 
-hr {
+.vr {
     height: 80%;
     width: 1px;
-    border: none;
-    opacity: 0.5;
+    opacity: 0.2;
     background-color: #505050;
+    margin-top: 5px;
 }
 
 .buttonSearch {
@@ -42,10 +42,15 @@ hr {
     border: none;
     border-radius: 10px;
     margin: 0 3% 0 5%;
-    background-color: #B05D3D;
+    background-color: #FF7A00;
     cursor: pointer;
 }
 
 .buttonSearch img {
     width: 20px;
+}
+
+.filter-input {
+    border: none;
+    color: #505050;
 }
