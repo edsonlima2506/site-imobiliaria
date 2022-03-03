@@ -94,3 +94,15 @@ header {
 .headerHouses .containerHeader {
     margin: 0;
 }
+
+.headerApes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url('../images/headerApes.png');
+    background-position: top;
+}
+
+.headerApes .containerHeader {
+    margin: 0;
+}

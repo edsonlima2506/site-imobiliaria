@@ -1,9 +1,10 @@
-import React from 'react'
+import React from 'react';
+import HeaderApes from '../components/HeaderApes';
 
 export default function Apartments() {
     return (
         <div>
-            Apartamentos
+            <HeaderApes />
         </div>
     )
 }
