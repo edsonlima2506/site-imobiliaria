@@ -1,9 +1,10 @@
-import React from 'react'
+import React from 'react';
+import HeaderHouses from '../components/HeaderHouses';
 
 export default function Houses() {
     return (
         <div>
-            Casas
+            <HeaderHouses />
         </div>
     )
 }

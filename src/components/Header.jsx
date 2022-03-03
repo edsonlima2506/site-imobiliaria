@@ -31,7 +31,7 @@ export default function Header() {
                 </div>
             </div>
             <div className="containerHeader">
-                <h1 className="title">Encontre aqui,o seu novo lar!</h1>
+                <h1 className="title">Encontre aqui,<br />o seu novo lar!</h1>
                 <div className="horizontalRow" />
                 <button className="exploreButton">Explorar</button>
             </div>
