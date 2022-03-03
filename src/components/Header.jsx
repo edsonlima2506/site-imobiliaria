@@ -14,8 +14,8 @@ export default function Header() {
                 <nav>
                     <ul className="superiorList">
                         <li name="inicio">Início</li>
-                        <li name="casas">Casas</li>
-                        <li name="apartamentos">Apartamentos</li>
+                        <li name="casas"><a href="#houses">Casas</a></li>
+                        <li name="apartamentos"><a href="#apes">Apartamentos</a></li>
                     </ul>
                 </nav>
                 <div className="socialMediaLinks">

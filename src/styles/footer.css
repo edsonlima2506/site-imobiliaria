@@ -1,0 +1,27 @@
+footer {
+    bottom: 0;
+    width: 100%;
+    height: 300px;
+    background-color: #C4C4C4;
+    display: flex;
+}
+
+.navbar-brand {
+    color: #FF7A00;
+    font-weight: 600;
+}
+
+.containerNav {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.nav-link {
+    margin-left: -15px;
+    color: #1E1E1E;
+}
+
+.nav-link:hover {
+    color: #FF7A00;
+}
