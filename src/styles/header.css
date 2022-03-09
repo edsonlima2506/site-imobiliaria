@@ -32,6 +32,11 @@ header {
     transition: 0.5s;
 }
 
+.superiorList li a {
+    color: #FFF;
+    text-decoration: none;
+}
+
 .superiorList li:hover {
     border-bottom: solid #FF7A00 3px;
 }
@@ -77,11 +82,14 @@ header {
     border-radius: 5px;
     margin: 20px 0 0 10%;
     cursor: pointer;
-    transition: 0.5s;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .exploreButton:hover {
-    background-color: #c95527;
+    color: white;
 }
 
 .headerHouses {

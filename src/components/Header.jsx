@@ -14,8 +14,8 @@ export default function Header() {
                 <nav>
                     <ul className="superiorList">
                         <li name="inicio">Início</li>
-                        <li name="casas"><a href="#houses">Casas</a></li>
-                        <li name="apartamentos"><a href="#apes">Apartamentos</a></li>
+                        <li name="casas"><a href="/casas">Casas</a></li>
+                        <li name="apartamentos"><a href="/apartamentos">Apartamentos</a></li>
                     </ul>
                 </nav>
                 <div className="socialMediaLinks">
@@ -33,7 +33,7 @@ export default function Header() {
             <div className="containerHeader">
                 <h1 className="title">Encontre aqui,<br />o seu novo lar!</h1>
                 <div className="horizontalRow" />
-                <button className="exploreButton">Explorar</button>
+                <a className="exploreButton" href="#houses">Explorar</a>
             </div>
             <Filter />
         </header>

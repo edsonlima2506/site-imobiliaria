@@ -1,16 +1,16 @@
 import React from 'react';
-import { highlightsHouses } from '../data/houses';
+import { highlightsApartments } from '../data/apartments';
 import Card from './Card';
 import '../styles/inicialHouses.css';
 
-export default function InicialHouses() {
+export default function InicialApartments() {
     return (
         <div className="inicialHouses" id="apes">
             <span className="headerInicial">
                 <h1 className="inicialTitle">Apartamentos</h1>
             </span>
             <div className="cards">
-                { highlightsHouses.map( (house) => (
+                { highlightsApartments.map( (house) => (
                     <Card
                         key={ house.id }
                         thumb={ house.thumb }

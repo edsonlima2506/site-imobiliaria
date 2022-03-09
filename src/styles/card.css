@@ -7,12 +7,6 @@
     margin: 20px;
 }
 
-.cardThumb {
-    width: 350px;
-    height: 200px;
-    border-radius: 10px 10px 0 0;
-}
-
 span {
     align-items: center;
 }
@@ -20,4 +14,10 @@ span {
 .btn-primary {
     background-color: #FF7A00;
     border: #FF7A00;
+}
+
+.btn-primary:hover {
+    border: #FF7A00;
+    color: #FF7A00;
+    background: none;
 }
